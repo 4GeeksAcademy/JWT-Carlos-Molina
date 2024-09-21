@@ -9,7 +9,6 @@ export const Home = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  // Manejador del formulario de login
   const handleLogin = async (e) => {
     e.preventDefault();
     const success = await actions.logIn(email, password);
