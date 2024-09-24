@@ -7,8 +7,6 @@ import { Home } from "./pages/Home.jsx";
 import { Register } from "./pages/Register.jsx"
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/navbar";
-
 const Layout = () => {
 
     const basename = process.env.BASENAME || "";
